@@ -1,0 +1,130 @@
+/* Center site, bootstrap font and 0 margin around borders */
+body {
+    background-color: black;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+#container-div {
+    background-color: white;
+    margin: 10% 40%
+}
+
+#email-div:focus-within #label-text {
+    display: block;
+} 
+
+#password-div:focus-within #label-password {
+    display: block;
+} 
+
+.input {
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+    width: 80%;
+}
+
+.input:focus {
+    border-width: 2px;
+    border-bottom-color: rgb(0, 123, 255);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+#input-container {
+    margin-bottom: 13%
+}
+
+.input:focus::placeholder {
+    color: transparent;
+}
+
+#label-password {
+    color: rgb(0, 123, 255);
+    display: none;
+    font-size: 0.9em;
+    margin-right: 56%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#label-text {
+    color: rgb(0, 123, 255);
+    display: none;
+    font-size: 0.9em;
+    margin-right: 63%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#password {
+    color: rgb(0, 123, 255);
+    font-size: 0.9em;
+    margin-left: 51%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#password:hover {
+    cursor: pointer;
+}
+
+#btn-text {
+    color: white;
+}
+
+#sign-in-btn {
+    background-image: linear-gradient(to top right, rgb(67, 195, 247), rgb(51, 71, 164));
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0px 3px 3px rgba(67, 195, 247, 0.2);
+    line-height: 100%;
+    margin-bottom: 1%;
+    width: 80%;
+    text-align: center;
+}
+
+#sign-in-btn:hover {
+    cursor: pointer;
+}
+
+#alt-sign-in {
+    font-size: 0.9em;
+}
+
+#alt-sign-in-btns {
+    padding-bottom: 8%;
+}
+
+i {
+    font-size: 1.2em;
+    color:rgb(0, 123, 255);
+}
+
+.social-btn {
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(67, 195, 247, 0.3);
+    margin-right: 8px;
+    margin-left: 8px;
+    line-height: 300%;
+    width: 20%;
+}
+
+.social-btn:hover {
+    cursor: pointer;
+}
+
+#sign-in-text-style {
+    font-size: 1.3em;
+    margin-bottom: 12%;
+    padding-top: 1%;
+}
